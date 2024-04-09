@@ -1,6 +1,5 @@
 <template>
   <div>
-    <!-- Home Hero For Desktop -->
     <div class="flex items-center justify-center pt-40 overflow-hidden lg:h-screen bg-hero lg:pt-0 lg:px-96">
       <div class="flex flex-col w-full max-w-full lg:items-center lg:flex-row">
         <div class="w-full lg:w-1/2 pl-[30px] lg:pl-0">
@@ -14,9 +13,10 @@
           <div v-scroll-reveal="{ origin: 'top', distance: '60px', delay: 500 }" class="mt-10 text-white text-opacity-70 text-lg font-normal font-['Rubik'] leading-[27px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor</div>
           <BaseButton color="primary" class="px-[45px] py-[21px] mt-10">
             <span class="text-lg font-bold font-satoshi">Get Started</span>
+            <img src="~assets/svg/arrow-right-black.svg" class="ml-3">
           </BaseButton>
         </div>
-        <div v-scroll-reveal="{ origin: 'right', distance: '60px', delay: 600 }" class="w-full pr-0 mt-20 lg:w-1/2 lg:mt-0">
+        <div v-scroll-reveal="{ origin: 'right', distance: '60px', delay: 600 }" class="w-full pr-0 my-20 lg:w-1/2 lg:my-0">
           <img src="~assets/images/hero-right.png" alt="">
         </div>
       </div>
@@ -25,13 +25,7 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      test: 'hero'
-    }
-  },
-}
+export default {}
 </script>
 
 <style scoped>

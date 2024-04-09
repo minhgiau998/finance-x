@@ -3,6 +3,7 @@
     <fade-transition>
       <div>
         <HomeHero></HomeHero>
+        <HomePartner></HomePartner>
       </div>
     </fade-transition>
   </div>

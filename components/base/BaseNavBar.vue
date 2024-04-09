@@ -67,7 +67,7 @@
           >
             <base-button color="transparent" @click="handleFacebook">
               Sign Up
-              <img src="~assets/images/arrow-right.svg" class="ml-3">
+              <img src="~assets/svg/arrow-right-white.svg" class="ml-3">
             </base-button>
           </div>
         </div>
@@ -250,7 +250,11 @@ export default {
 }
 
 .top-at-page {
-  padding: 15px;
+  padding: 15px 30px;
+
+  @media (min-width: 1024px) {
+    padding: 15px 24rem;
+  }
 }
 
 .shadow {
