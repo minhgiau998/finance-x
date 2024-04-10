@@ -4,7 +4,6 @@
     :class="{
       'bg-transparent': view.atTopOfPage,
       'bg-primary transition duration-500 ease shadow': !view.atTopOfPage,
-      'bg-primary': !isOpened,
     }"
   >
     <!-- Base Navigation Bar For Mobile -->
@@ -41,7 +40,7 @@
     <!-- Base Navigation Bar For Desktop -->
     <div class="hidden border-solid lg:block border-mercury border-b-1">
       <div
-        class="flex flex-row items-center justify-between mx-auto my-0 px-96 py-[30px] max-w-9xl"
+        class="flex flex-row items-center justify-between mx-auto my-0 2xl:px-96 px-[30px] py-[30px] max-w-9xl"
         :class="{
           'top-at-page transition duration-500 ease': !view.atTopOfPage,
         }"
@@ -252,7 +251,7 @@ export default {
 .top-at-page {
   padding: 15px 30px;
 
-  @media (min-width: 1024px) {
+  @media (min-width: 1536px) {
     padding: 15px 24rem;
   }
 }

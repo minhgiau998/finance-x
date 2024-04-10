@@ -4,6 +4,7 @@
       <div>
         <HomeHero></HomeHero>
         <HomePartner></HomePartner>
+        <HomeService></HomeService>
       </div>
     </fade-transition>
   </div>

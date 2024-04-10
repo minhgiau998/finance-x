@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="flex items-center justify-center pt-40 overflow-hidden lg:h-screen bg-hero lg:pt-0 lg:px-96">
+    <div class="flex items-center justify-center pt-40 overflow-hidden lg:h-screen bg-hero lg:pt-0 2xl:px-96">
       <div class="flex flex-col w-full max-w-full lg:items-center lg:flex-row">
-        <div class="w-full lg:w-1/2 pl-[30px] lg:pl-0">
+        <div class="w-full lg:w-1/2 pl-[30px] 2xl:pl-0">
           <div v-scroll-reveal="{ origin: 'top', distance: '60px', delay: 300 }" class="text-xl font-semibold text-success">
             Welcome! Future Platform
           </div>
@@ -17,7 +17,7 @@
           </BaseButton>
         </div>
         <div v-scroll-reveal="{ origin: 'right', distance: '60px', delay: 600 }" class="w-full pr-0 my-20 lg:w-1/2 lg:my-0">
-          <img src="~assets/images/hero-right.png" alt="">
+          <img src="~assets/images/hero-right.png" alt="" class="w-full">
         </div>
       </div>
     </div>
