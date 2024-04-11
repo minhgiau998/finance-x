@@ -2,13 +2,13 @@
   <div class="bg-primary">
     <div class="flex items-center justify-center pt-40 overflow-hidden 2xl:px-96 px-[30px]">
       <div class="flex flex-col w-full max-w-full lg:flex-row">
-        <div class="w-full pl-[30px] lg:pl-0">
-          <div v-scroll-reveal="{ origin: 'top', distance: '60px', delay: 300 }" class="text-xl font-semibold text-success">
+        <div class="w-full">
+          <div v-scroll-reveal="{ origin: 'left', distance: '60px', delay: 300 }" class="text-xl font-semibold text-success">
             Our Services
           </div>
-          <div v-scroll-reveal="{ origin: 'top', distance: '60px', delay: 400 }" class="mt-3">
-            <span class="text-5xl font-bold text-white leading-[72px] font-satoshi">Browse our services & </span>
-            <span class="text-5xl font-bold text-success leading-[72px] font-satoshi">offerings</span>
+          <div v-scroll-reveal="{ origin: 'left', distance: '60px', delay: 400 }" class="mt-3">
+            <span class="text-5xl font-bold text-white leading-[60px] font-satoshi">Browse our services & </span>
+            <span class="text-5xl font-bold text-success leading-[60px] font-satoshi">offerings</span>
           </div>
           <BaseButton color="primary" class="px-[45px] py-[21px] mt-10">
             <span class="text-lg font-bold font-satoshi">Get Started</span>

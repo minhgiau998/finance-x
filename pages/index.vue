@@ -5,6 +5,8 @@
         <HomeHero></HomeHero>
         <HomePartner></HomePartner>
         <HomeService></HomeService>
+        <HomeMap></HomeMap>
+        <HomeTransaction></HomeTransaction>
       </div>
     </fade-transition>
   </div>
