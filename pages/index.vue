@@ -7,6 +7,7 @@
         <HomeService></HomeService>
         <HomeMap></HomeMap>
         <HomeTransaction></HomeTransaction>
+        <HomeFeedback></HomeFeedback>
       </div>
     </fade-transition>
   </div>

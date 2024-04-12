@@ -25,6 +25,8 @@ export default {
           return 'text-secondary bg-primary hover:text-primary hover:bg-secondary cursor-pointer'
         case 'transparent':
           return 'text-secondary bg-transparent hover:text-secondary hover:bg-transparent cursor-pointer'
+        case 'outline':
+          return 'text-primary bg-transparent hover:text-white border-2 hover:bg-primary cursor-pointer'
         case 'disabled':
           return 'bg-alto border-solid text-mine-shaft border-alto cursor-not-allowed'
         default:
@@ -32,7 +34,7 @@ export default {
       }
     },
     isDefault() {
-      return 'flex items-center justify-center font-normal border-1 text-20px-24px transition duration-500 ease'
+      return 'flex items-center justify-center font-normal text-20px-24px transition duration-500 ease'
     },
     isType() {
       switch (this.type) {

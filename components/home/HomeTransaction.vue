@@ -21,7 +21,7 @@
         </div>
       </div>
     </div>
-    <div class="pt-20 flex lg:flex-row flex-col justify-center items-center 2xl:px-96 px-[30px]">
+    <div class="py-20 flex lg:flex-row flex-col justify-center items-center 2xl:px-96 px-[30px]">
       <HomeTransactionCard v-for="(item, index) in list" :key="index" :icon="item.icon" :title="item.title"></HomeTransactionCard>
     </div>
   </div>
