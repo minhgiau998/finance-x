@@ -11,6 +11,6 @@ npm run build
 
 # Deploy using Surge
 npm run generate
-surge dist/ --domain lopvocoffee.surge.sh
+surge dist/ --domain finance-x.minhgiau998.surge.sh
 
 echo "Deployment complete."
