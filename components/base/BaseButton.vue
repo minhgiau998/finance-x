@@ -22,7 +22,7 @@ export default {
         case 'primary':
           return 'text-primary bg-success hover:text-success hover:bg-primary cursor-pointer'
         case 'secondary':
-          return 'text-secondary bg-primary hover:text-primary hover:bg-secondary cursor-pointer'
+          return 'text-success bg-primary hover:text-primary hover:bg-success cursor-pointer'
         case 'transparent':
           return 'text-secondary bg-transparent hover:text-secondary hover:bg-transparent cursor-pointer'
         case 'outline':
